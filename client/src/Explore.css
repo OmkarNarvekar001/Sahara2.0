@@ -1,0 +1,29 @@
+.explore_main{
+    display:flex;
+    flex-direction: row;
+}
+.explore_content{
+    flex:8.5;
+    overflow-y: scroll;
+    height:calc(100vh - 50px);
+    background-color: #1d1d1d;
+}
+.spacer{
+    height:20px;
+}
+
+.explore_posts{
+    width:60%;
+    margin:0 auto;
+}
+::-webkit-scrollbar{
+    width:0px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 255, 255);
+}

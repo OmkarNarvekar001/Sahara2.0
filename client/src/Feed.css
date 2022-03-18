@@ -1,0 +1,89 @@
+.feed{
+    flex:5.5;
+    overflow-y: scroll;
+    height:calc(100vh - 50px);
+    background-color: #1d1d1d;
+}
+
+::-webkit-scrollbar{
+    width:0px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 255, 255);
+}
+.make_post{
+    padding: 5px 0px;
+    margin:0 auto;
+    margin-bottom:10px;
+    margin-top:20px;
+    padding:10px 10px;
+    width:92%;
+    border-radius: 13px;
+}
+.choose_file_button{
+    padding:10px;
+    border:0px;
+    color:#ffffff;
+    border-radius: 3px;
+    width:100px;
+    margin: 10px;
+}
+.caption_input_text_container{
+    margin-bottom:10px;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.make_post_row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 28px;
+}
+.feed_post_list{
+    width:88%;
+    margin:0 auto;
+}
+.input_caption_container{
+    display:flex;
+    width:100%;
+}
+.input_caption{
+    padding: 5px;
+    size: 40px;
+    background-color: rgb(36, 35, 35);
+    border:4px solid rgb(48, 48, 48);
+    color:white;
+    border-radius:5px;
+    height:30px;
+    width:100%;
+    font-size: 15px;
+}
+.input_caption:focus{
+    outline: none;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    padding:10px;
+    color:rgb(204, 203, 203);
+    background-color: #3F51B5;
+    border-radius: 80px;
+    cursor: pointer;
+    font-size: 15px;
+    margin:5px;
+    margin-left:0px;
+    width:100px;
+    text-align: center;
+}
+.plus_button{
+    color: #3F51B5;  
+}

@@ -1,0 +1,120 @@
+.profile_page_main{
+    display:flex;
+    background-color: #1d1d1d;
+}
+.profile_page_1{
+    display: flex;
+    flex: 4 ;
+    justify-content: center;
+    align-items: center;
+    height:calc(100vh - 50px);
+}
+.profile_page_1_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91%;
+    width: 82%;
+    flex-direction: column;
+    color:rgb(204, 203, 203);
+}
+
+.profile_page_avatar{
+    border:4px solid rgb(48, 48, 48);
+}
+.profile_page_1_datas{
+    display:flex
+}
+.profile_page_1_data{
+    font-size: 15px;
+    font-weight: 400;
+    margin:17px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color:#727272
+}
+.data_count{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 5px;
+    color:rgb(204, 203, 203);
+}
+.follow_button{
+    padding:10px;
+    
+    background-color: #3F51B5;
+    
+    
+    cursor: pointer;
+    font-size: 15px;
+    margin:5px;
+    margin-left:0px;
+    width:100px;
+    text-align: center;
+    border-radius: 29px !important;
+}
+.button_text{
+    font-size: 15px;
+    color:rgb(204, 203, 203);
+}
+.profile_page_2{
+    /* display:flex; */
+    flex:6;
+    /* flex-direction: column; */
+    background-color: #1d1d1d;
+    height:88vh;
+    overflow-y: scroll;
+    /* height:88vh; */
+}
+.map_container{
+    width: 96%;
+    height: 267px;
+    /* margin-left: 31px; */
+    margin-top: 12px;
+    padding: 1px;
+    margin-bottom: 26px;
+    border:4px solid rgb(48, 48, 48);
+    border-radius: 5px;
+}
+.profile_bio{
+    margin: 25px;
+    margin-left:0px;
+    border-radius: 5px;
+    padding: 27px;
+    background-color: rgb(36, 35, 35);
+    border:4px solid rgb(48, 48, 48);
+    font-size: 15px;
+    color:rgb(204, 203, 203);
+}
+.profile_username{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+.profile_text{
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    color:#727272
+}
+
+.chart_container{
+    width: 94%;
+    margin:30px 0px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(36, 35, 35);
+    border:4px solid rgb(48, 48, 48);
+}
+.profile_icons{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.profile_posts{
+    width: 94%;
+    margin-left: 14px;
+}
+

@@ -1,0 +1,38 @@
+.donations_main{
+    display:flex;
+    flex-direction: row;
+    background-color: #1d1d1d;
+}
+.donations_content{
+    flex:8.5;
+    overflow-y: scroll;
+    height:calc(100vh - 50px);
+}
+.notifs{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+::-webkit-scrollbar{
+    width:0px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 255, 255);
+}
+.donations_toggle{
+    margin:20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.donation_list{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}

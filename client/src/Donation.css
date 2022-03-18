@@ -1,0 +1,27 @@
+.donation_main{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    margin:5px;
+    border-radius: 5px;
+    height:250px;
+    width:200px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(36, 35, 35);
+    border:4px solid rgb(48, 48, 48);
+}
+.donation_username{
+    font-size: 20px;
+    color:rgb(204, 203, 203);
+}
+.donation_amount{
+    margin-bottom: 34px;
+    color:rgb(204, 203, 203);
+}
+.donation_time{
+    font-size: 10px;
+    font-weight: 600;
+    color:rgb(133, 133, 133);
+    margin-bottom: 34px;
+}

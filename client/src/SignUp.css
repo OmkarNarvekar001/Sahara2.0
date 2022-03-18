@@ -1,0 +1,45 @@
+.signup{
+    width: 100wh;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4267B2;
+}
+.input_text_container{
+    margin-top:30px;
+}
+.follow_button{
+    padding:10px;
+    border:0px;
+    background-color:#4267B2 ;
+    color:#ffffff;
+    border-radius: 3px;
+    width:100px;
+    margin: 15px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-weight: 540;
+}
+.signup_google{
+    padding:10px;
+    border:0px;
+    background-color:#4267B2 ;
+    color:#ffffff;
+    border-radius: 3px;
+    width:100px;
+    margin: 15px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-weight: 540;
+}
+.signup_container{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    padding-top:10px;
+}
+.form_title{
+    color:#4267B2;
+
+}

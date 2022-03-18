@@ -1,0 +1,39 @@
+.nav{
+    display: flex;;
+    justify-content: space-between;
+    border:1px solid black; 
+    background-color: #3F51B5;
+    height:50px;
+    align-items: center;
+    
+}
+.nav_1{
+    
+    height:100%;
+}
+.nav_logo{
+}
+.nav_3{
+    display:flex;
+    justify-content: space-evenly;
+}
+.nav_icon{
+    margin:0px 0px;
+    color:white;
+}
+
+
+.search_input{
+    border-width:0px;
+    border:none;  
+    width:400px;  
+    font-size: 15px;
+}
+/* .search_div{
+    display:none;
+    background-color: #3F51B5;
+    display:flex;
+    align-items: center;
+    border-radius: 16px;
+    padding:5px;
+} */

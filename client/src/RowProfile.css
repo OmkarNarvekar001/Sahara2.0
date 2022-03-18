@@ -1,0 +1,23 @@
+.row_profile{
+    display:flex;
+    align-items: center;
+    margin-top: 13px;;
+    margin-left: 10px;
+}
+
+.row_profile_info{
+    margin-left: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.row_profile_username{
+    font-size: 15px;
+    font-weight: 400;
+    color:rgb(204, 203, 203);
+}
+.row_profile_role{
+    font-size: 12px;
+    font-weight: 400;
+    color:#727272;
+}
